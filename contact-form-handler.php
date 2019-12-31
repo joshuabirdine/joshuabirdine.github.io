@@ -7,8 +7,8 @@
 
     $email_subject = "New Form Submission";
 
-    $email_body = "Name: $name.\n".
-                    "User Email: $visitor_email.\n".
+    $email_body = "Name: $name.\n",
+                    "User Email: $visitor_email.\n",
                         "User Cell: $cell.\n";
 
     $to = "joshbird5@gmail.com";
