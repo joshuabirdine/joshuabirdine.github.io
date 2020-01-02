@@ -18,14 +18,14 @@
           <header class="container">
               
               
-              <form method="POST" action="contact-form-handler.php">
+              <form method="POST" name="contact" data-netlify="true">
                 <div class="form-group">
                   <h1>Does Your Business <br>Need A Website?</h1>
                   <label for="contact#">Leave a phone number and a email address.<br> You will receive a text message and an email shortly after confirming we got it.</label>
-                  <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter First and Last Name">
-                  <input type="tel" class="form-control" id="exampleInputTel1" aria-describedby="telHelp" placeholder="Enter Phone Number">
+                  <input type="text" name="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter First and Last Name">
+                  <input type="tel" name="tel" class="form-control" id="exampleInputTel1" aria-describedby="telHelp" placeholder="Enter Phone Number">
                  
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Address" required>
+                  <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Address" required>
                 </div>   
                 <button type="submit" class="btn btn-primary">Submit</button>            
               </form>
